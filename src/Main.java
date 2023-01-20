@@ -35,7 +35,17 @@ public class Main {
         /**
          *  Найти средний расход
          */
-        System.out.println("Средний расход за месяц составил: " + (double)sum/ array.length);
+        System.out.printf("Средний расход за месяц составил: %.2f \n", (double) sum/ array.length);
+        /**
+         * Вывести в правильном ппорядке массив
+         */
+
+        char[] reserveFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        for (int i = reserveFullName.length -1; i>=0; i-- ) {
+            System.out.print(reserveFullName[i]);
+        }
+
+
     }
 
 
